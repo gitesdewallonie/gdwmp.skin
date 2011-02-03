@@ -3,5 +3,9 @@
     xmlns:five="http://namespaces.zope.org/five"
     i18n_domain="gdwmp.skin">
 
+  <five:registerPackage package="." initialize=".initialize" />
+  
+  <include file="skins.zcml" />
+  <include file="profiles.zcml" />
 
 </configure>
