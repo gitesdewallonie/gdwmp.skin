@@ -5,3 +5,159 @@ Marmiton & Polochon
 Affinitic 2011
 www.affinitic.be
 */
+
+
+body{
+margin:0px;
+background-color:#eee;   /*#25211d;*/
+background-image:url(bg_body.png);
+background-repeat:repeat-x;
+background-attachment:fixed;
+font-family:verdana, arial, helvetica, tahoma, garamond, sans-serif;
+font-size:12pt;
+}
+#wrapper{
+background-image:url(bg_rayon.png);
+background-repeat:no-repeat;
+background-position:center 476px;
+background-attachment:fixed;
+}
+
+#gdwmp-main-content{
+width:931px;
+margin:auto;
+/*border-left:2px solid #000;
+border-right:2px solid #000;*/
+}
+
+/**** HEADER ****/
+#gdwmp-header{
+width:931px;
+height:86px;
+background-image:url(bandeau_sup.png);
+background-repeat:no-repeat;
+}
+
+#gdwmp-site-title{
+position:relative;
+top:70px;
+left:5px;
+width:400px;
+color:#bbb;
+font-size:0.8em;
+font-weight:normal;
+}
+
+#portal-languageselector{
+background-color:transparent;
+margin-top:68px;
+right:5px;
+}
+
+#portal-languageselector a{
+color:#bbb;
+}
+
+/**** ZONE FLASH ****/
+#gdwmp-zone-flash{
+width:931px;
+height:326px;
+background-image:url(zone_flash.png);
+background-repeat:no-repeat;
+}
+
+
+/**** MENU SUP TAB GLOBAL NAV ****/
+#gdwmp-menu-sup{
+width:929px;
+height:66px;
+background-image:url(menu_sup.png);
+background-repeat:no-repeat;
+padding-left:3px;
+}
+
+#portal-globalnav {
+background:transparent;
+margin-top:0px;
+margin:auto;
+}
+
+#portal-globalnav li a {
+background:transparent;
+border-right: 1px solid #3a3022;
+border-left: 1px solid #3a3022;
+display: inline-block;
+/*min-width:114px;*/
+line-height:66px;
+font-family:garamond;
+font-size: 15pt;
+color:#bdb8aa;
+text-transform:uppercase;
+padding:0px 10px 0px 15px;
+}
+
+#portal-globalnav .selected a, #portal-globalnav a:hover {
+background:transparent;
+color:#ffab4e;
+}
+
+#portal-globalnav .selected a:hover {
+background:transparent;
+color:#ffab4e;
+}                                   
+
+/**** ZONE TEXTE ****/
+#gdwmp-zone-texte{
+width:931px;
+height:531px;
+background-image:url(zone_texte.png);
+background-repeat:no-repeat;
+}
+
+#gdwmp-zone-texte .intro{
+float:left;
+width:250px;
+color:#d8b986;
+font-size:0.9em;
+margin-left:25px;
+margin-top:50px;
+}
+    
+#gdwmp-zone-texte .portletEvents{
+float:right;
+margin-right:80px;
+margin-top:27px;
+border:1px solid #0F0;
+min-height:300px;
+width:500px;
+}
+
+
+#gdwmp-zone-texte .portletCollection{
+float:right;
+margin-right:80px;
+margin-top:40px;
+border:1px solid #f00;
+min-height:125px;
+width:500px;
+}
+
+
+/**** FOOTER ****/
+#footer{
+width:931px;
+height:247px;
+background-image:url(footer.png);
+background-repeat:no-repeat;
+} 
+
+
+/**** COLOPHON ****/
+#colophon{
+width:931px;
+height:67px;
+background-image:url(colophon.png);
+background-repeat:no-repeat;
+}
+
+

@@ -13,23 +13,34 @@
 	<prepend content="/html/body/@class" theme="/html/body" />
 	<prepend content="/html/body/@id"    theme="/html/body" />	
 	<prepend content="/html/body/@dir"   theme="/html/body" />
+     
+    <!-- Header -->
+    <prepend content="//*[@id='portal-languageselector']"
+          theme="//*[@id='gdwmp-header']" />
+      
+    <copy content="//*[@id='portal-globalnav']"
+          theme="//*[@id='gdwmp-menu-sup']" />
 
-     <!-- Document Content -->
-     <copy content="//*[@id='portal-column-content']/*"
-           theme="//*[@id='texte']" />
+    <!-- Language selector -->
+    <copy content="//*[@id='portal-languageselector']/*"
+          theme="//*[@id='gdwmp-languages']" />
+    
+    <!-- Document Content -->
+    <append content="//dl[contains(@class, 'portletEvents')]"
+          theme="//*[@id='gdwmp-zone-texte']" />
+    
+    <append content="//dl[contains(@class, 'portletCollection')]"
+          theme="//*[@id='gdwmp-zone-texte']" />
 
-     <!-- <drop content="*[@class='documentActions']" /> -->
+    <!-- <drop content="*[@class='documentActions']" /> -->
 
-     <!-- Search -->
-     <copy content="//*[@id='portal-searchbox']"
-           theme="//*[@id='search-form']" />
+    <!-- Search -->
+    <copy content="//*[@id='portal-searchbox']"
+          theme="//*[@id='search-form']" />
 
-     <!-- Navigation -->
-     <copy content="//*[@class='portlet portletNavigationTree']"
-           theme="//*[@id='navigation']" />
+    <!-- Navigation -->
+    <copy content="//*[@class='portlet portletNavigationTree']"
+          theme="//*[@id='navigation']" />
 
-     <!-- Language selector -->
-     <copy content="//*[@id='portal-languageselector']/*"
-           theme="//*[@id='gdwmp-languages']" />
-
+    
 </rules>
