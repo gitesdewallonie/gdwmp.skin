@@ -125,8 +125,18 @@ font-size:0.9em;
 text-align:justify;
 /*border:1px solid #fff;*/
 }
-    
-#gdwmp-zone-texte .portletEvents{
+
+#gdwmp-zone-texte .portletCollection{
+float:right;
+margin-right:52px;
+margin-top:40px;
+border:1px solid #f00;
+min-height:125px;
+width:500px;
+} 
+
+/*les events*/ 
+#gdwmp-evenement{
 float:right;
 margin-right:52px;
 margin-top:27px;
@@ -138,73 +148,14 @@ width:500px;
 border-width:1px 1px 1px 1px;
 border-style:solid;
 border-color:#846d37;
-}
+}                 
 
-#gdwmp-zone-texte .portletCollection{
-float:right;
-margin-right:52px;
-margin-top:40px;
-border:1px solid #f00;
-min-height:125px;
-width:500px;
-}
-
-#gdwmp-recette{
-float:right;
-margin-right:52px;
-border:1px solid #f00;
-width:500px;
-height:50px;
--moz-border-radius: 0px 12px 0px 12px;
--webkit-border-radius: 0px 12px 0px 12px;
--op-border-radius: 0px 12px 0px 12px;
-border-width:1px 1px 1px 1px;
-border-style:solid;
-border-color:#846d37;
-text-align:center;
-line-height:24px;
-}
-
-#gdwmp-recette a{
-font-size:0.8em;
-color:#e7c99d;
-}
-
-#gdwmp-recette a:hover;{
-color:#ffab4e;
-}
-
-/*les recettes*/
-#gdwmp-zone-texte .portletCollection .portletHeader {
-background: transparent;
-line-height: normal;
-padding: 0.42em 1em;
-}
-
-div#gdwmp-zone-texte #gdwmp-recette dl.portlet dt.portletHeader a span {
-color:#e7c99d;
-}
-
-div#gdwmp-zone-texte #gdwmp-recette dl.portlet dd.portletItem a.tile{
-color:#e7c99d;
-}
-
-div#gdwmp-zone-texte #content a:link, dl.portlet a:link{
-border:none;
-}
-
-div#gdwmp-zone-texte #content a:hover, dl.portlet a:hover{
-color:#ffab4e !important;
-} 
- 
-/*les events*/
 div#gdwmp-zone-texte #gdwmp-evenement dl.portlet dt a:link, dl.portlet dt a:visited, dl.portlet dt a:hover {
 border: medium none;
 color:#ffaa6e;
 display: block;
 font-size:2em; 
 }
-
 
 div#gdwmp-zone-texte #gdwmp-evenement dl.portlet dt, div.portletAssignments div.portletHeader {
 background:transparent;
@@ -236,7 +187,59 @@ color:#ccc;
 
 div#gdwmp-zone-texte #gdwmp-evenement dd.portletFooter {
 padding-left: 270px;
-}  
+}                  
+
+
+/*les recettes*/
+#gdwmp-recette{
+float:right;
+margin-right:52px;
+margin-top:25px;
+border:1px solid #f00;
+width:500px;
+height:50px;
+-moz-border-radius: 0px 12px 0px 12px;
+-webkit-border-radius: 0px 12px 0px 12px;
+-op-border-radius: 0px 12px 0px 12px;
+border-width:1px 1px 1px 1px;
+border-style:solid;
+border-color:#846d37;
+text-align:center;
+line-height:24px;
+}
+
+#gdwmp-recette a{
+font-size:0.8em;
+color:#e7c99d;
+}
+
+#gdwmp-recette a:hover;{
+color:#ffab4e;
+}
+
+#gdwmp-zone-texte .portletCollection .portletHeader {
+background: transparent;
+line-height: normal;
+padding: 0.42em 1em;
+}
+
+div#gdwmp-zone-texte #gdwmp-recette dl.portlet dt.portletHeader a span {
+color:#e7c99d;
+}
+
+div#gdwmp-zone-texte #gdwmp-recette dl.portlet dd.portletItem a.tile{
+color:#e7c99d;
+}
+
+div#gdwmp-zone-texte #content a:link, dl.portlet a:link{
+border:none;
+}
+
+div#gdwmp-zone-texte #content a:hover, dl.portlet a:hover{
+color:#ffab4e !important;
+} 
+ 
+
 
 /**** FOOTER ****/
 #footer{
