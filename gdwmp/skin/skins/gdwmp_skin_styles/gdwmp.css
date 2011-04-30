@@ -149,7 +149,7 @@ min-height:125px;
 width:500px;
 }
 
-#recette{
+#gdwmp-recette{
 float:right;
 margin-right:52px;
 border:1px solid #f00;
@@ -165,27 +165,27 @@ text-align:center;
 line-height:24px;
 }
 
-#recette a{
+#gdwmp-recette a{
 font-size:0.8em;
 color:#e7c99d;
 }
 
-#recette a:hover;{
+#gdwmp-recette a:hover;{
 color:#ffab4e;
 }
 
-
+/*les recettes*/
 #gdwmp-zone-texte .portletCollection .portletHeader {
 background: transparent;
 line-height: normal;
 padding: 0.42em 1em;
 }
 
-div#gdwmp-zone-texte dl.portlet dt.portletHeader a span {
+div#gdwmp-zone-texte #gdwmp-recette dl.portlet dt.portletHeader a span {
 color:#e7c99d;
 }
 
-div#gdwmp-zone-texte dl.portlet dd.portletItem a.tile{
+div#gdwmp-zone-texte #gdwmp-recette dl.portlet dd.portletItem a.tile{
 color:#e7c99d;
 }
 
@@ -195,7 +195,48 @@ border:none;
 
 div#gdwmp-zone-texte #content a:hover, dl.portlet a:hover{
 color:#ffab4e !important;
+} 
+ 
+/*les events*/
+div#gdwmp-zone-texte #gdwmp-evenement dl.portlet dt a:link, dl.portlet dt a:visited, dl.portlet dt a:hover {
+border: medium none;
+color:#ffaa6e;
+display: block;
+font-size:2em; 
 }
+
+
+div#gdwmp-zone-texte #gdwmp-evenement dl.portlet dt, div.portletAssignments div.portletHeader {
+background:transparent;
+line-height: normal;
+padding: 0.42em 1em;
+color:#ffaa6e;   
+} 
+
+div#gdwmp-zone-texte #gdwmp-evenement dl.portlet dd.portletItem a.tile {
+border: medium none;
+color:#ffaa6e;
+display: block;
+font-size:1.1em; 
+}
+
+
+div#gdwmp-zone-texte #gdwmp-evenement #content a:hover, dl.portlet a:hover{
+color:#b76c0f !important;
+}
+
+div#gdwmp-zone-texte #gdwmp-evenement .portletItemDetails {
+display: block;
+font-size: 85%;
+line-height: 1.5em;
+margin-left: 1em;
+padding-top: 0.5em;
+color:#ccc;
+}
+
+div#gdwmp-zone-texte #gdwmp-evenement dd.portletFooter {
+padding-left: 270px;
+}  
 
 /**** FOOTER ****/
 #footer{

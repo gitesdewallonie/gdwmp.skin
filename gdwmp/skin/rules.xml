@@ -27,10 +27,10 @@
     
     <!-- Document Content -->
     <prepend content="//dl[contains(@class, 'portletEvents')]"
-          theme="//*[@id='gdwmp-zone-texte']" />
+          theme="//*[@id='gdwmp-evenement']" />
     
     <append content="//dl[contains(@class, 'portletCollection')]/dd[contains(@class, 'portletItem')]/a"
-          theme="//*[@id='recette']" />
+          theme="//*[@id='gdwmp-recette']" />
 
     <!-- <drop content="*[@class='documentActions']" /> -->
 
