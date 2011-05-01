@@ -37,6 +37,9 @@
     <!-- Search -->
     <copy content="//*[@id='portal-searchbox']"
           theme="//*[@id='gdwmp-search']" />
+          
+    <append content="//*[@id='LSResult']"
+          theme="//*[@id='gdwmp-search']" />
 
     <!-- Navigation -->
     <copy content="//*[@class='portlet portletNavigationTree']"
