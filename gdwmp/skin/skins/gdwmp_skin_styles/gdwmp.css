@@ -260,6 +260,29 @@ margin:5px 12px;
 #gdwmp-navigation{
 }
 
+div#gdwmp-navigation .portletHeader {
+display:none;
+}
+
+div#gdwmp-navigation dl.portlet ul.navTreeLevel0 > .navTreeItem {
+border-bottom: none;
+line-height: 2em;
+padding: 0.25em 1em;
+}
+
+div#gdwmp-navigation .contenttype-folder {
+background-image:none;
+background-color:transparent;
+}
+
+div#gdwmp-navigation dl.portlet ul.navTree .navTreeCurrentItem {
+background-color:tranparent;
+border-left:1em solid transparent;
+margin-left: -1em;
+margin-right: -1em;
+color:#ffab4e;
+}
+
 #gdwmp-search label{
 color:#999;    
 }
