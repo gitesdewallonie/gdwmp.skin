@@ -252,10 +252,65 @@ background-repeat:no-repeat;
 
 /**** COLOPHON ****/
 #colophon{
-width:931px;
-height:67px;
+width:929px;
+height:85px;
+background-color:#1f1b19;
 background-image:url(colophon.png);
 background-repeat:no-repeat;
 }
 
+#copyright{
+float:left;
+width: 330px;
+height: 77px;
+margin-top:1px;
+overflow: hidden;
 
+}
+
+#txt{
+color: #FFFFFF;
+font-family:  Tahoma, "Trebuchet MS", Arial, serif;
+font-size: 11px;
+margin-top: 20px;
+margin-left: 20px;
+}
+
+#feder-info{
+float:right;
+color:#999;
+font-size:0.6em;
+font-weight:normal;
+text-align:right;
+margin-top:19px;
+margin-bottom:4px;
+margin-right:4px;
+}
+#feder-logo{
+float:right;
+margin-right:5px;
+margin-top:21px;
+}         
+
+
+
+
+/**** PLONE ****/
+/*barre verte edit*/
+#edit-bar, #content ul.formTabs {
+-moz-border-radius-topleft:3px;
+-moz-border-radius-topright:3px;
+border-style:none;
+display:block;
+margin-left:0;
+}
+
+#edit-bar {
+background-image:url(edit_menu_bckg.png);
+background-color:transparent;
+border-left:3px solid #d7dfce;
+border-right:3px solid #d7dfce;
+font-size:80%;
+margin-bottom:1em;
+min-height:2em;
+}
