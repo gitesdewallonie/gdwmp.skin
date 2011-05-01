@@ -247,7 +247,28 @@ width:931px;
 height:247px;
 background-image:url(footer.png);
 background-repeat:no-repeat;
-} 
+}
+
+#gdwmp-navigation, #gdwmp-search, #gdwmp-links{
+float:left;
+width:30%;
+height:205px;
+border:1px solid #fff;
+margin:5px 12px;
+}
+
+#gdwmp-navigation{
+
+}
+    
+#gdwmp-search{
+
+}
+
+#gdwmp-links{
+
+}        
+
 
 
 /**** COLOPHON ****/

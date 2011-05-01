@@ -36,11 +36,11 @@
 
     <!-- Search -->
     <copy content="//*[@id='portal-searchbox']"
-          theme="//*[@id='search-form']" />
+          theme="//*[@id='gdwmp-search']" />
 
     <!-- Navigation -->
     <copy content="//*[@class='portlet portletNavigationTree']"
-          theme="//*[@id='navigation']" />
+          theme="//*[@id='gdwmp-navigation']" />
 
     
 </rules>
