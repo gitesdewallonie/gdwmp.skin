@@ -148,6 +148,7 @@ width:500px;
 border-width:1px 1px 1px 1px;
 border-style:solid;
 border-color:#846d37;
+overflow:hidden;
 }                 
 
 div#gdwmp-zone-texte #gdwmp-evenement dl.portlet dt a:link, dl.portlet dt a:visited, dl.portlet dt a:hover {
@@ -155,6 +156,22 @@ border: medium none;
 color:#ffaa6e;
 display: block;
 font-size:2em; 
+}
+
+div#gdwmp-zone-texte #gdwmp-evenement dd.portletFooter{
+}
+
+div#gdwmp-zone-texte #gdwmp-evenement dd.portletFooter a:link{
+border:1px dotted #a87f5b;
+-moz-border-radius: 12px 12px 12px 0px;
+-webkit-border-radius: 12px 12px 12px 0px;
+-op-border-radius: 12px 12px 12px 0px;
+color:#a87f5b;
+padding:5px 10px 5px 10px;
+}
+
+div#gdwmp-zone-texte #gdwmp-evenement dd.portletFooter a:hover{
+border:1px dotted #ffaa6e;
 }
 
 div#gdwmp-zone-texte #gdwmp-evenement dl.portlet dt, div.portletAssignments div.portletHeader {
@@ -205,6 +222,7 @@ border-color:#846d37;
 -op-border-radius: 0px 12px 0px 12px;
 text-align:center;
 line-height:24px;
+overflow:hidden;
 }
 
 #gdwmp-recette a{
