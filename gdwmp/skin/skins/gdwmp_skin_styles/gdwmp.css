@@ -253,22 +253,48 @@ background-repeat:no-repeat;
 float:left;
 width:30%;
 height:205px;
-border:1px solid #fff;
 margin:5px 12px;
+/*border:1px solid #fff;*/
 }
 
 #gdwmp-navigation{
-
-}
-    
-#gdwmp-search{
-
 }
 
-#gdwmp-links{
+#gdwmp-search label{
+color:#999;    
+}
 
-}        
+#gdwmp-search label:hover{
+color:#ffab4e;    
+}
 
+div#gdwmp-search #portal-searchbox {
+clear: right;
+float: right;
+font-size: 80%;
+margin-top:78px;
+margin-right:10px;
+text-align:left;
+}
+
+#gdwmp-links ul{
+margin-top:40px;
+}
+
+#gdwmp-links li{
+display:block;
+text-align:right;
+font-size:0.7em;
+margin:1.2em 0;
+}
+
+#gdwmp-links li a{
+color:#999;        
+}
+
+#gdwmp-links li a:hover{
+color:#ffab4e;        
+}
 
 
 /**** COLOPHON ****/
