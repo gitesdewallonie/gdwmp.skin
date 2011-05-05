@@ -44,6 +44,10 @@
     <!-- Navigation -->
     <copy content="//*[@class='portlet portletNavigationTree']"
           theme="//*[@id='gdwmp-navigation']" />
+          
+    <!-- Breadcrumb -->
+    <copy content="//*[@id='portal-breadcrumbs']"
+          theme="//*[@id='gdwmp-breadcrumb']" />
 
     
 </rules>

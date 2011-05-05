@@ -104,6 +104,14 @@ color:#ffab4e;
 #portal-globalnav .selected a:hover {
 background:transparent;
 color:#ffab4e;
+}
+
+/**** BREADCRUMB ****/
+#gdwmp-breadcrumb {
+background-color:#000;
+font-size: 80%;
+margin-bottom: 1px;
+margin-left: 0.25em;
 }                                   
 
 /**** ZONE TEXTE ****/
