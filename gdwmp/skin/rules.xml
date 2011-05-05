@@ -1,4 +1,5 @@
-<rules xmlns="http://namespaces.plone.org/xdv">
+<rules xmlns="http://namespaces.plone.org/xdv"
+       xmlns:css="http://namespaces.plone.org/xdv+css">
 
  	<replace content='/html/head/title' theme='/html/head/title' />
 
@@ -14,6 +15,7 @@
 	<prepend content="/html/body/@id"    theme="/html/body" />	
 	<prepend content="/html/body/@dir"   theme="/html/body" />
      
+
     <!-- Header -->
     <prepend content="//*[@id='portal-languageselector']"
           theme="//*[@id='gdwmp-header']" />
@@ -25,13 +27,6 @@
     <copy content="//*[@id='portal-languageselector']/*"
           theme="//*[@id='gdwmp-languages']" />
     
-    <!-- Document Content -->
-    <prepend content="//dl[contains(@class, 'portletEvents')]"
-          theme="//*[@id='gdwmp-evenement']" />
-    
-    <append content="//dl[contains(@class, 'portletCollection')]/dd[contains(@class, 'portletItem')]/a"
-          theme="//*[@id='gdwmp-recette']" />
-
     <!-- <drop content="*[@class='documentActions']" /> -->
 
     <!-- Search -->
@@ -49,5 +44,26 @@
     <copy content="//*[@id='portal-breadcrumbs']"
           theme="//*[@id='gdwmp-breadcrumb']" />
 
+
+  <!-- HOMEPAGE ELEMENTS -->
+
+    <rules css:if-content="body.section-front-page">
+        <!-- Document Content -->
+        <prepend content="//dl[contains(@class, 'portletEvents')]"
+              theme="//*[@id='gdwmp-evenement']" />
     
+        <append content="//dl[contains(@class, 'portletCollection')]/dd[contains(@class, 'portletItem')]/a"
+              theme="//*[@id='gdwmp-recette']" />
+    </rules>
+
+
+  <!-- INSIDE PAGES ELEMENTS -->
+    
+    <rules if-content="not(//*[contains(@class, 'section-front-page')])">
+        <!-- Document Content -->
+        <replace content="//*[@id='content']"
+                 theme="//*[@id='gdwmp-zone-texte']" />
+    </rules>
+
+
 </rules>
