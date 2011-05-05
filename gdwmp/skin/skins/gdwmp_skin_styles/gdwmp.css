@@ -160,7 +160,8 @@ font-size:2em;
 
 div#gdwmp-zone-texte #gdwmp-evenement dd.portletFooter{
 }
-
+ 
+/*bouton plus d'event*/
 div#gdwmp-zone-texte #gdwmp-evenement dd.portletFooter a:link{
 border:1px dotted #a87f5b;
 -moz-border-radius: 12px 12px 12px 0px;
