@@ -526,6 +526,13 @@ right:-1px;
 }
 
 
+#content h1.documentFirstHeading {
+margin: 3px 0px 9px 0px;
+color:#FFAB4E;
+border-bottom:1px dotted #4e3702;
+}
+
+
 .documentEditable{
 width:900px;
 margin:auto;
