@@ -70,7 +70,7 @@ background-repeat:no-repeat;
 /**** MENU SUP TAB GLOBAL NAV ****/
 #gdwmp-menu-sup{
 width:929px;
-height:66px;
+height:65px;
 background-image:url(menu_sup.png);
 background-repeat:no-repeat;
 padding-left:3px;
@@ -107,12 +107,25 @@ color:#ffab4e;
 }
 
 /**** BREADCRUMB ****/
-#gdwmp-breadcrumb {
+#portal-breadcrumbs {
 background-color:#000;
-font-size: 80%;
-margin-bottom: 1px;
-margin-left: 0.25em;
+font-size: 70%;
+color:#ac6202;
+margin: 0px;
+padding-left:5px;
+border-top:1px dotted #4e3702;
+border-bottom:1px dotted #4e3702;
+}
+
+#portal-breadcrumbs a {
+color:#b3680a;
 }                                   
+
+#portal-breadcrumbs a:hover {
+color:#ffbd5f;
+}                                   
+
+
 
 /**** ZONE TEXTE ****/
 #gdwmp-zone-texte{
@@ -490,4 +503,7 @@ background-color:transparent;
 #contentActionMenus dl.actionMenu.activated dd {
 border-bottom:0.5em solid #8da375;
 right:-1px;
-}                   
+}
+
+
+
