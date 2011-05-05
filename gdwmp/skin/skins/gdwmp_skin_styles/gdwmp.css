@@ -542,6 +542,7 @@ margin-left: 0;
 
 .documentEditable{
 width:900px;
+min-height:500px;
 margin:auto;
 margin-top:10px;
 background-image:url(bg_document.png);
