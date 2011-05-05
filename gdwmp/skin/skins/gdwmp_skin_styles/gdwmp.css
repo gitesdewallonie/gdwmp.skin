@@ -216,7 +216,8 @@ div#gdwmp-zone-texte #gdwmp-evenement dl.portlet dt, div.portletAssignments div.
 background:transparent;
 line-height: normal;
 padding: 0.42em 1em;
-color:#ffaa6e;   
+color:#ffaa6e;
+font-family: 'Calligraffitti', arial, serif;    
 } 
 
 div#gdwmp-zone-texte #gdwmp-evenement dl.portlet dd.portletItem a.tile {
