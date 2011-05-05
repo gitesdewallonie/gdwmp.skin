@@ -61,13 +61,13 @@
     
     <rules if-content="not(/html/body[contains(@class, 'section-front-page')])">
         <!-- Document Content with / without edit bar -->
-        <replace content="//div[@class='documentEditable']"
-                 theme="//*[@id='gdwmp-zone-texte']"
-                 css:if-content="div.documentEditable"/>
+        <copy content="//div[@class='documentEditable']"
+              theme="//*[@id='gdwmp-zone-texte']"
+              css:if-content="div.documentEditable"/>
 
-        <replace content="//*[@id='content']"
-                 theme="//*[@id='gdwmp-zone-texte']"
-                 if-content="not(//div[@class='documentEditable'])" />
+        <copy content="//*[@id='content']"
+              theme="//*[@id='gdwmp-zone-texte']"
+              if-content="not(//div[@class='documentEditable'])" />
     </rules>
 
 
