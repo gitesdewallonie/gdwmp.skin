@@ -18,7 +18,7 @@
 
     <!-- Header -->
     <prepend content="//*[@id='portal-languageselector']"
-          theme="//*[@id='gdwmp-header']" />
+             theme="//*[@id='gdwmp-header']" />
       
     <copy content="//*[@id='portal-globalnav']"
           theme="//*[@id='gdwmp-menu-sup']" />
@@ -34,7 +34,7 @@
           theme="//*[@id='gdwmp-search']" />
           
     <append content="//*[@id='LSResult']"
-          theme="//*[@id='gdwmp-search']" />
+            theme="//*[@id='gdwmp-search']" />
 
     <!-- Navigation -->
     <copy content="//*[@class='portlet portletNavigationTree']"
@@ -50,19 +50,24 @@
     <rules css:if-content="body.section-front-page">
         <!-- Document Content -->
         <prepend content="//dl[contains(@class, 'portletEvents')]"
-              theme="//*[@id='gdwmp-evenement']" />
+                 theme="//*[@id='gdwmp-evenement']" />
     
         <append content="//dl[contains(@class, 'portletCollection')]/dd[contains(@class, 'portletItem')]/a"
-              theme="//*[@id='gdwmp-recette']" />
+                theme="//*[@id='gdwmp-recette']" />
     </rules>
 
 
   <!-- INSIDE PAGES ELEMENTS -->
     
-    <rules if-content="not(//*[contains(@class, 'section-front-page')])">
-        <!-- Document Content -->
+    <rules if-content="not(/html/body[contains(@class, 'section-front-page')])">
+        <!-- Document Content with / without edit bar -->
+        <replace content="//div[@class='documentEditable']"
+                 theme="//*[@id='gdwmp-zone-texte']"
+                 css:if-content="div.documentEditable"/>
+
         <replace content="//*[@id='content']"
-                 theme="//*[@id='gdwmp-zone-texte']" />
+                 theme="//*[@id='gdwmp-zone-texte']"
+                 if-content="not(//div[@class='documentEditable'])" />
     </rules>
 
 
