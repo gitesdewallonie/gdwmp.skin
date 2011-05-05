@@ -530,6 +530,13 @@ right:-1px;
 margin: 3px 0px 9px 0px;
 color:#FFAB4E;
 border-bottom:1px dotted #4e3702;
+font-weight:normal;
+}
+
+#content .documentDescription, #content #description {
+color: #444;
+font: bold 1.25em "Helvetica Neue",Arial,FreeSans,sans-serif;
+margin-left: 0;
 }
 
 
@@ -537,6 +544,8 @@ border-bottom:1px dotted #4e3702;
 width:900px;
 margin:auto;
 margin-top:10px;
+background-image:url(bg_document.png);
+background-repeat:repeat-x;
 }
 
 
