@@ -15,7 +15,9 @@ background-repeat:repeat-x;
 background-attachment:fixed;
 font-family:verdana, arial, helvetica, tahoma, garamond, sans-serif;
 font-size:12pt;
+color:#888;
 }
+
 #wrapper{
 background-image:url(bg_rayon.png);
 background-repeat:no-repeat;
@@ -24,8 +26,9 @@ background-attachment:fixed;
 }
 
 #gdwmp-main-content{
-width:931px;
+width:950px;
 margin:auto;
+background-color:#000;
 /*border-left:2px solid #000;
 border-right:2px solid #000;*/
 }
@@ -130,7 +133,7 @@ color:#ffbd5f;
 /**** ZONE TEXTE ****/
 #gdwmp-zone-texte{
 width:931px;
-height:531px;
+min-height:531px;
 background-color:#000;
 background-image:url();
 background-repeat:no-repeat;
@@ -523,4 +526,14 @@ right:-1px;
 }
 
 
+.documentEditable{
+margin-top:10px;
+}
 
+
+/*** EDITEUR TINY ***/
+.ploneSkin .mceIframeContainer {
+    border: 1px solid #666666;
+    background-color:#fff;
+};
+}
