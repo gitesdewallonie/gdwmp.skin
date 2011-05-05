@@ -131,26 +131,42 @@ color:#ffbd5f;
 #gdwmp-zone-texte{
 width:931px;
 height:531px;
-background-image:url(zone_texte.png);
+background-color:#000;
+background-image:url();
 background-repeat:no-repeat;
+/*border:1px solid #f00;*/
 }
 
-#gdwmp-zone-texte .intro{
+#gdwmp-zone-texte #intro{
 float:left;
-width:250px;
-height:450px;
-margin-left:29px;
-margin-top:50px;
+width:300px;
+height:518px;
+background-image:url(bg_intro.png);
+background-repeat:no-repeat;
+margin-left:12px;
+margin-top:10px; 
 color:#d8b986;
 font-size:0.9em;
 text-align:justify;
 /*border:1px solid #fff;*/
 }
 
-#gdwmp-zone-texte .portletCollection{
+#gdwmp-zone-texte #intro p{
+padding:48px 2em 0px 2em;
+}
+
+
+#gdwmp-zone-texte #event-recette{
 float:right;
-margin-right:52px;
-margin-top:40px;
+width:601px;
+height:518px;
+margin-right:12px;
+margin-top:10px;
+background-image:url(bg_event_recette.png);
+background-repeat:no-repeat;
+}  
+
+#gdwmp-zone-texte .portletCollection{
 border:1px solid #f00;
 min-height:125px;
 width:500px;
@@ -160,7 +176,7 @@ width:500px;
 #gdwmp-evenement{
 float:right;
 margin-right:52px;
-margin-top:27px;
+margin-top:15px;
 height:400px;
 width:500px;
 -moz-border-radius: 0px 12px 0px 12px;
@@ -183,7 +199,7 @@ div#gdwmp-zone-texte #gdwmp-evenement dd.portletFooter{
 }
  
 /*bouton plus d'event*/
-div#gdwmp-zone-texte #gdwmp-evenement dd.portletFooter a:link{
+div#gdwmp-zone-texte #gdwmp-evenement dd.portletFooter .tile{
 border:1px dotted #a87f5b;
 -moz-border-radius: 12px 12px 12px 0px;
 -webkit-border-radius: 12px 12px 12px 0px;
