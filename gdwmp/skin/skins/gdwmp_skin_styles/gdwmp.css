@@ -220,7 +220,6 @@ background:transparent;
 line-height: normal;
 padding: 0.42em 1em;
 color:#ffaa6e;
-font-family: 'Calligraffitti', arial, serif;    
 } 
 
 div#gdwmp-zone-texte #gdwmp-evenement dl.portlet dd.portletItem a.tile {
@@ -531,6 +530,7 @@ margin: 3px 0px 9px 0px;
 color:#FFAB4E;
 border-bottom:1px dotted #4e3702;
 font-weight:normal;
+font-family: 'Terminal Dosis Light', arial, serif;
 }
 
 #content .documentDescription, #content #description {
