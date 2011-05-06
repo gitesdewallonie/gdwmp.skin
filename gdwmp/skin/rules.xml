@@ -17,8 +17,11 @@
      
 
     <!-- Header -->
-    <prepend content="//*[@id='portal-languageselector']"
-             theme="//*[@id='gdwmp-header']" />
+    <prepend content="//li[contains(@class, 'language-nl')]"
+             theme="//*[@id='portal-languageselector']" />
+      
+    <append content="//li[contains(@class, 'language-fr')]"
+            theme="//*[@id='portal-languageselector']" />
       
     <copy content="//*[@id='portal-globalnav']"
           theme="//*[@id='gdwmp-menu-sup']" />
