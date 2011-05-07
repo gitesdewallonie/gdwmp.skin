@@ -15,7 +15,8 @@
 	<prepend content="/html/body/@id"    theme="/html/body" />	
 	<prepend content="/html/body/@dir"   theme="/html/body" />
      
-
+    
+    <!-- HOMEPAGE ELEMENTS -->
     <!-- Header -->
     <prepend content="//li[contains(@class, 'language-nl')]"
              theme="//*[@id='portal-languageselector']" />
@@ -30,8 +31,6 @@
     <copy content="//*[@id='portal-languageselector']/*"
           theme="//*[@id='gdwmp-languages']" />
     
-    <!-- <drop content="*[@class='documentActions']" /> -->
-
     <!-- Search -->
     <copy content="//*[@id='portal-searchbox']"
           theme="//*[@id='gdwmp-search']" />
@@ -48,20 +47,20 @@
           theme="//*[@id='gdwmp-breadcrumb']" />
 
 
-  <!-- HOMEPAGE ELEMENTS -->
 
+<!-- GESTION DOCUMENT CONTENT HOMEPAGE / INSIDE PAGES -->
+    <!-- homepage page elements-->
     <rules css:if-content="body.section-front-page">
-        <!-- Document Content -->
+        <!-- event --> 
         <prepend content="//dl[contains(@class, 'portletEvents')]"
                  theme="//*[@id='gdwmp-evenement']" />
-    
+        <!-- recent --> 
         <append content="//dl[contains(@class, 'portletCollection')]/dd[contains(@class, 'portletItem')]/a"
                 theme="//*[@id='gdwmp-recette']" />
     </rules>
 
 
-  <!-- INSIDE PAGES ELEMENTS -->
-    
+    <!-- inside pages elements -->    
     <rules if-content="not(/html/body[contains(@class, 'section-front-page')])">
         <!-- Document Content with / without edit bar -->
         <copy content="//div[@class='documentEditable']"

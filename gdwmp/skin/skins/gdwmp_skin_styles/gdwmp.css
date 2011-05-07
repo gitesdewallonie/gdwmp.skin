@@ -92,7 +92,7 @@ border-left: 1px solid #3a3022;
 display: inline-block;
 /*min-width:114px;*/
 line-height:66px;
-font-family:garamond;
+font-family:verdana, arial, sans-serif;
 font-size: 15pt;
 color:#878376;     /*#bdb8aa;*/
 text-transform:uppercase;
@@ -195,7 +195,8 @@ div#gdwmp-zone-texte #gdwmp-evenement dl.portlet dt a:link, dl.portlet dt a:visi
 border: medium none;
 color:#ffaa6e;
 display: block;
-font-size:2em; 
+font-size:2em;
+ 
 }
 
 div#gdwmp-zone-texte #gdwmp-evenement dd.portletFooter{
@@ -220,6 +221,7 @@ background:transparent;
 line-height: normal;
 padding: 0.42em 1em;
 color:#ffaa6e;
+font-family: 'Terminal Dosis Light', arial, serif;
 } 
 
 div#gdwmp-zone-texte #gdwmp-evenement dl.portlet dd.portletItem a.tile {
@@ -261,12 +263,15 @@ border-color:#846d37;
 -moz-border-radius: 0px 12px 0px 12px;
 -webkit-border-radius: 0px 12px 0px 12px;
 -op-border-radius: 0px 12px 0px 12px;
-text-align:center;
-line-height:24px;
 overflow:hidden;
 }
 
 #gdwmp-recette a{
+width:500px;
+height:50px;
+display:table-cell;
+text-align:center;
+vertical-align:middle;
 font-size:0.8em;
 color:#e7c99d;
 }
@@ -552,7 +557,6 @@ background-repeat:repeat-x;
 
 /*** EDITEUR TINY ***/
 .ploneSkin .mceIframeContainer {
-    border: 1px solid #666666;
-    background-color:#fff;
-};
+border: 1px solid #666666;
+background-color:#fff;
 }
