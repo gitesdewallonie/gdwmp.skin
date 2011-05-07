@@ -15,7 +15,7 @@ background-repeat:repeat-x;
 background-attachment:fixed;
 font-family:verdana, arial, helvetica, tahoma, garamond, sans-serif;
 font-size:12pt;
-color:#888;
+color:#aab;
 }
 
 #wrapper{
@@ -82,7 +82,11 @@ padding-left:3px;
 #portal-globalnav {
 background:transparent;
 margin-top:0px;
-margin:auto;
+margin-left:10px;
+}
+
+#portal-globalnav li{
+text-align:center;
 }
 
 #portal-globalnav li a {
@@ -96,7 +100,7 @@ font-family:verdana, arial, sans-serif;
 font-size: 15pt;
 color:#878376;     /*#bdb8aa;*/
 text-transform:uppercase;
-padding:0px 10px 0px 15px;
+padding:0px 5px 0px 15px;
 }
 
 #portal-globalnav .selected a, #portal-globalnav a:hover {
@@ -538,9 +542,11 @@ font-weight:normal;
 font-family: 'Terminal Dosis Light', arial, serif;
 }
 
-#content .documentDescription, #content #description {
-color: #444;
-font: bold 1.25em "Helvetica Neue",Arial,FreeSans,sans-serif;
+#content .documentDescription{
+color: #aab;
+font-weight:normal; 
+font-size:1.25em; 
+font-family:"Helvetica Neue",Arial,FreeSans,sans-serif;
 margin-left: 0;
 }
 
