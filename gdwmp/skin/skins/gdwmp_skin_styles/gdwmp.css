@@ -573,10 +573,32 @@ font-family:"Helvetica Neue",Arial,FreeSans,sans-serif;
 margin-left: 0;
 }
 
-
+.summary img{
+margin-left:10px;
+margin-right:6px;
+}
 
 /*** EDITEUR TINY ***/
 .ploneSkin .mceIframeContainer {
 border: 1px solid #666666;
 background-color:#fff;
 }
+
+
+.ploneSkin .mceText {
+    background: none repeat scroll 0 0 #FF0000;
+    border: 0 none;
+    border-collapse: separate;
+    color: Black;
+    cursor: default;
+    font-weight: normal;
+    margin: 0;
+    padding: 0;
+    text-align: left;
+    text-decoration: none;
+    vertical-align: baseline;
+    white-space: nowrap;
+    width: auto;
+}
+
+
