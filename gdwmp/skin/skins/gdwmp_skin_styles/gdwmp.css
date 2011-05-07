@@ -534,6 +534,16 @@ right:-1px;
 }
 
 
+/* zone de contenu et d'edition */
+#gdwmp-zone-texte #content{
+background-image:url(bg_document.png);
+background-repeat:repeat-x;
+width:900px;
+min-height:500px;
+margin:auto;
+margin-top:10px;
+}
+
 #content h1.documentFirstHeading {
 margin: 3px 0px 9px 0px;
 color:#FFAB4E;
@@ -550,15 +560,6 @@ font-family:"Helvetica Neue",Arial,FreeSans,sans-serif;
 margin-left: 0;
 }
 
-
-.documentEditable{
-width:900px;
-min-height:500px;
-margin:auto;
-margin-top:10px;
-background-image:url(bg_document.png);
-background-repeat:repeat-x;
-}
 
 
 /*** EDITEUR TINY ***/
