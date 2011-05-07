@@ -32,14 +32,14 @@
           theme="//*[@id='gdwmp-languages']" />
     
     <!-- Search -->
-    <copy content="//*[@id='portal-searchbox']"
+    <append content="//*[@id='portal-searchbox']"
           theme="//*[@id='gdwmp-search']" />
           
     <append content="//*[@id='LSResult']"
             theme="//*[@id='gdwmp-search']" />
 
     <!-- Navigation -->
-    <copy content="//*[@class='portlet portletNavigationTree']"
+    <append content="//*[@class='portlet portletNavigationTree']"
           theme="//*[@id='gdwmp-navigation']" />
           
     <!-- Breadcrumb -->
