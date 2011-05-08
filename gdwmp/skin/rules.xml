@@ -65,6 +65,12 @@
         <!-- recent --> 
         <append content="//dl[contains(@class, 'portletCollection')]/dd[contains(@class, 'portletItem')]/a"
                 theme="//*[@id='gdwmp-recette']" />
+
+        <append content="//h1[@id='parent-fieldname-title']/node()"
+                theme="//*[@id='gdwmp-site-title']" />
+
+        <append content="//div[@id='parent-fieldname-text']/node()"
+                 theme="//*[@id='intro']" />
     </rules>
 
 
