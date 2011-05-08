@@ -16,7 +16,6 @@
 	<prepend content="/html/body/@dir"   theme="/html/body" />
      
     
-    <!-- HOMEPAGE ELEMENTS -->
     <!-- Header -->
     <prepend content="//li[contains(@class, 'language-nl')]"
              theme="//*[@id='portal-languageselector']" />
@@ -30,22 +29,31 @@
     <!-- Language selector -->
     <copy content="//*[@id='portal-languageselector']/*"
           theme="//*[@id='gdwmp-languages']" />
+
+    <!-- Navigation -->
+    <append content="//*[@id='gdwmp-navigation']/*"
+          theme="//*[@id='gdwmp-navigation']" />
+
+    <append content="//*[@class='portlet portletNavigationTree']"
+          theme="//*[@id='gdwmp-navigation']" />
     
     <!-- Search -->
+    <append content="//*[@id='gdwmp-search']/*"
+          theme="//*[@id='gdwmp-search']" />
+
     <append content="//*[@id='portal-searchbox']"
           theme="//*[@id='gdwmp-search']" />
           
     <append content="//*[@id='LSResult']"
             theme="//*[@id='gdwmp-search']" />
 
-    <!-- Navigation -->
-    <append content="//*[@class='portlet portletNavigationTree']"
-          theme="//*[@id='gdwmp-navigation']" />
+    <!-- Links -->
+    <replace content="//*[@id='gdwmp-links']"
+          theme="//*[@id='gdwmp-links']" />
           
     <!-- Breadcrumb -->
     <copy content="//*[@id='portal-breadcrumbs']"
           theme="//*[@id='gdwmp-breadcrumb']" />
-
 
 
 <!-- GESTION DOCUMENT CONTENT HOMEPAGE / INSIDE PAGES -->

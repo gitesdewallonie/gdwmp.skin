@@ -1,9 +1,13 @@
 <configure
     xmlns="http://namespaces.zope.org/zope"
+    xmlns:browser="http://namespaces.zope.org/browser"
     xmlns:five="http://namespaces.zope.org/five"
     i18n_domain="gdwmp.skin">
 
   <five:registerPackage package="." initialize=".initialize" />
+
+  <include package="z3c.jbot" file="meta.zcml" />
+  <browser:templateOverrides directory="skins/gdwmp_skin_templates" />
   
   <include file="skins.zcml" />
   <include file="profiles.zcml" />
