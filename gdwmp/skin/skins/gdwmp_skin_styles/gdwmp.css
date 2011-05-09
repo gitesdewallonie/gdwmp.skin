@@ -64,11 +64,9 @@ color:#bbb;
 /**** ZONE FLASH ****/
 #gdwmp-zone-flash{
 width:931px;
-height:326px;
-background-image:url(zone_flash.png);
-background-repeat:no-repeat;
+height:329px;
+background-color:#000;
 }
-
 
 /**** MENU SUP TAB GLOBAL NAV ****/
 #gdwmp-menu-sup{
