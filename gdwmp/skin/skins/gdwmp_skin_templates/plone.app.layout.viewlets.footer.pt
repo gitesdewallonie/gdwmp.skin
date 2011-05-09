@@ -1,5 +1,9 @@
 <div id="portal-footer" metal:define-macro="portal_footer" i18n:domain="gdwmp">
 
+    <div id="site-title" i18n:translate="titre_banner">
+        Ateliers culinaires en chambres d'hôtes
+    </div>
+
     <div id="gdwmp-navigation">
         <h3 i18n:translate="plan_du_site">Plan du site</h3>
     </div>
