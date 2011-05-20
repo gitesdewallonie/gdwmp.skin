@@ -10,7 +10,7 @@ www.affinitic.be
 body{
 margin:0px;
 background-color:#eee;   /*#25211d;*/
-background-image:url(bg_body.png);
+background-image:url(bg_boOOOOdy.png);
 background-repeat:repeat-x;
 background-attachment:fixed;
 font-family:verdana, arial, helvetica, tahoma, garamond, sans-serif;
@@ -22,6 +22,7 @@ color:#aab;
 background-image:url(bg_rayon.png);
 background-repeat:no-repeat;
 background-position:center 476px;
+background-color:#1e1a17;
 background-attachment:fixed;
 }
 
@@ -304,7 +305,23 @@ div#gdwmp-zone-texte #content a:hover, dl.portlet a:hover{
 color:#ffab4e !important;
 } 
  
+/*les hebergements */
+#liens-hebergement{
+border-width:1px 0px;
+border-style:dotted;
+border-color:#3f3a36;
+margin:auto;
+margin-top:10px;
+}
 
+#liens-hebergement ul{
+text-align:right;
+}
+
+#liens-hebergement li{
+display:inline;
+margin:0px 1em;
+}
 
 /**** FOOTER ****/
 #footer{
