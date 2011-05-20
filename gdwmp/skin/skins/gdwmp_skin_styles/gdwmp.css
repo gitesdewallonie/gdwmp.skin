@@ -9,10 +9,10 @@ www.affinitic.be
 
 body{
 margin:0px;
-background-color:#eee;   /*#25211d;*/
-background-image:url(bg_boOOOOdy.png);
+background-color:#1e1a17;
+background-image:url(bg_body.png);
 background-repeat:repeat-x;
-background-attachment:fixed;
+/*background-attachment:fixed;*/
 font-family:verdana, arial, helvetica, tahoma, garamond, sans-serif;
 font-size:12pt;
 color:#aab;
@@ -22,8 +22,8 @@ color:#aab;
 background-image:url(bg_rayon.png);
 background-repeat:no-repeat;
 background-position:center 476px;
-background-color:#1e1a17;
-background-attachment:fixed;
+/*background-color:#1e1a17;*/
+/*background-attachment:fixed;*/
 }
 
 #gdwmp-main-content{
@@ -311,7 +311,7 @@ border-width:1px 0px;
 border-style:dotted;
 border-color:#3f3a36;
 margin:auto;
-margin-top:10px;
+margin-top:13px;
 }
 
 #liens-hebergement ul{
@@ -321,6 +321,7 @@ text-align:right;
 #liens-hebergement li{
 display:inline;
 margin:0px 1em;
+list-style-type:disc;
 }
 
 /**** FOOTER ****/
@@ -578,6 +579,11 @@ color:#FFAB4E;
 border-bottom:1px dotted #4e3702;
 font-weight:normal;
 font-family: 'Terminal Dosis Light', arial, serif;
+} 
+
+#content a:visited, dl.portlet a:visited {
+border-bottom: 0px solid #CCCCCC;
+color: #427597;
 }
 
 #content .documentDescription{
