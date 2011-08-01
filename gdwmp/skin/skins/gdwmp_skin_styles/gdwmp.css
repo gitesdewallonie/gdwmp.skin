@@ -454,7 +454,7 @@ color:#ffab4e;
 /**** COLOPHON ****/
 #colophon{
 width:929px;
-height:100px;
+/*height:100px;*/
 background-color:#1f1b19;
 background-image:url(colophon.png);
 background-repeat:no-repeat;
@@ -475,30 +475,28 @@ font-size: 11px;
 margin-left: 20px;
 }
 
-
-#feder{
-width:600px;
-float:right;
+#partenaire{
+width:100%;
+border-top:1px solid #2f2c28;
+padding-top:5px;
 }
-#feder-info{
-float:right;
+.partenaire-info{
 color:#999;
 font-size:0.6em;
 font-weight:normal;
-text-align:right;
-margin-top:20px;
 margin-bottom:4px;
-margin-right:4px;
-width:450px;
+margin-right:3px;
 }
-#feder-logo{
+
+#logo-tourisme-wallonie, #logo-wallonie-bruxelles-tourisme, #feder-logo{
 float:right;
-margin-right:5px;
-margin-top:20px;
-}         
+margin-right:70px;
+text-align:center;
+}
 
-
-
+#feder-logo img{
+margin:auto;
+} 
 
 /**** PLONE ****/
 /*barre verte edit*/
