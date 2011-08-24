@@ -97,11 +97,21 @@
                             </tal:sameday>
                         </td>
                     </tr>
-                    <tr tal:condition="context/location">
-                        <td class="location">
-                            <metal:field use-macro="python:context.widget('location', mode='view')">
-                            Location
-                            </metal:field>
+                    <tr>
+                        <th></th>
+                        <td class="location"
+                            tal:define="hebergement context/@@proprio_view/getEventRelatedHebergement">
+                            <span tal:condition="not: hebergement">
+                                <metal:field use-macro="python:context.widget('location', mode='view')">
+                                Location
+                                </metal:field>
+                            </span>
+                            <span tal:condition="hebergement">
+                                <a href="" title=""
+                                   tal:attributes="href hebergement/absolute_url;
+                                                   title hebergement/Title"
+                                   tal:content="hebergement/Title"></a>
+                            </span>
                         </td>
                     </tr>
                     <tr tal:define="contact_email context/contact_email;
