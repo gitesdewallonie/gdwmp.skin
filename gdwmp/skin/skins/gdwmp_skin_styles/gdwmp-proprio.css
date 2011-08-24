@@ -1,0 +1,16 @@
+/*
+Gites de Wallonie
+Marmiton & Polochon
+
+Affinitic 2011
+www.affinitic.be
+
+Proprio stylesheet
+*/
+
+#contentview-contentrules, #contentview-local_roles,
+#plone-contentmenu-display, #plone-contentmenu-actions,
+#plone-contentmenu-translate, #plone-contentmenu-workflow, #settings{
+display: none;
+visibility: hidden;
+}
