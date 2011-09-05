@@ -12,6 +12,7 @@ margin:0px;
 background-color:#1e1a17;
 background-image:url(bg_body.png);
 background-repeat:repeat-x;
+background-position:center 23px;
 /*background-attachment:fixed;*/
 font-family:verdana, arial, helvetica, tahoma, garamond, sans-serif;
 font-size:12pt;
@@ -21,13 +22,13 @@ color:#aab;
 #wrapper{
 background-image:url(bg_rayon.jpg);
 background-repeat:no-repeat;
-background-position:center 476px;
+background-position:center 499px;
 /*background-color:#1e1a17;*/
 /*background-attachment:fixed;*/
 }
 
 #gdwmp-main-content{
-width:931px;
+width:929px;
 margin:auto;
 background-color:#000;
 /*border-left:2px solid #000;
@@ -65,23 +66,22 @@ color:#bbb;
 /**** ZONE FLASH ****/
 #gdwmp-zone-flash{
 width:931px;
-height:332px;
+height:326px;
 background-color:#000;
 }
 
 /**** MENU SUP TAB GLOBAL NAV ****/
 #gdwmp-menu-sup{
-width:929px;
+width:931px;
 height:65px;
 background-image:url(menu_sup.png);
-background-repeat:no-repeat;
-padding-left:3px;
+background-repeat:repeat-x;
 }
 
 #portal-globalnav {
 background:transparent;
 margin-top:0px;
-margin-left:10px;
+margin-left:15px;
 }
 
 #portal-globalnav li{
@@ -115,10 +115,11 @@ color:#ffab4e;
 /**** BREADCRUMB ****/
 #portal-breadcrumbs {
 background-color:#000;
+width:923px;
 font-size: 70%;
 color:#ac6202;
 margin: 0px;
-padding-left:5px;
+padding-left:8px;
 border-top:1px dotted #4e3702;
 border-bottom:1px dotted #4e3702;
 }
@@ -136,7 +137,7 @@ color:#ffbd5f;
 /**** ZONE TEXTE ****/
 #gdwmp-zone-texte{
 width:931px;
-min-height:531px;
+min-height:528px;
 background-color:#000;
 background-image:url();
 background-repeat:no-repeat;
@@ -330,6 +331,7 @@ width:931px;
 height:247px;
 background-image:url(footer.png);
 background-repeat:no-repeat;
+background-size:931px auto;
 }
 
 #gdwmp-navigation, #gdwmp-search, #gdwmp-links{
@@ -457,7 +459,8 @@ width:929px;
 /*height:100px;*/
 background-color:#1f1b19;
 background-image:url(colophon.png);
-background-repeat:no-repeat;
+background-repeat:repeat-x;
+background-position:center 3px-;
 }
 
 #copyright{
