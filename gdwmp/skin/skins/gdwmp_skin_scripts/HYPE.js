@@ -142,7 +142,7 @@ var HYPE = (function HYPE() {
 			loadingDiv.style.fontWeight = "bold";
 			loadingDiv.style.color = "#b0b0b0";
 			loadingDiv.style.zIndex = "1000000";
-			loadingDiv.innerHTML = "Loading";
+			loadingDiv.innerHTML = "Chargement ...";
 			
 			contentContainer.appendChild(loadingDiv);
 		}
