@@ -253,6 +253,9 @@ padding-top: 0.5em;
 color:#ccc;
 }
 
+.event-complete {
+color: #FF0000;
+}
 
 /*les recettes*/
 #gdwmp-recette{

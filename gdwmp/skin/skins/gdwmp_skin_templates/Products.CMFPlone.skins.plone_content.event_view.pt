@@ -97,6 +97,18 @@
                             </tal:sameday>
                         </td>
                     </tr>
+                    <tr i18n:domain="gdwmp" tal:condition="context/complete">
+                        <th>&nbsp;</th>
+                        <td>
+                            <span class="event-complete" i18n:translate="complete_event">Complet</span>
+                        </td>
+                    </tr>
+                    <tr i18n:domain="gdwmp" tal:condition="context/price">
+                        <th i18n:translate="price">Tarifs</th>
+                        <td>
+                            <span tal:replace="context/price" />
+                        </td>
+                    </tr>
                     <tr tal:define="hebergement context/@@proprio_view/getEventRelatedHebergement">
                         <th>
                             <span tal:condition="hebergement">
