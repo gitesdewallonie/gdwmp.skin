@@ -577,6 +577,7 @@ margin:auto;
 margin-top:10px;
 }
 
+#content h1,
 #content h1.documentFirstHeading {
 margin: 3px 0px 9px 0px;
 color:#FFAB4E;
