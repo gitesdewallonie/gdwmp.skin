@@ -609,7 +609,17 @@ margin-right:6px;
 border: 1px solid #666666;
 background-color:#fff;
 }
+ 
+/*couleur fond barre de boutons*/
+.ploneSkin table.mceLayout td.mceToolbar {
+border: medium none;
+padding: 0;
+background-color:#ccc;
+}
 
+.ploneSkin .mceButtonDisabled .mceIcon {
+opacity: 0.5 !important;
+}
 
 .ploneSkin .mceText {
     background: none repeat scroll 0 0 #FF0000;
