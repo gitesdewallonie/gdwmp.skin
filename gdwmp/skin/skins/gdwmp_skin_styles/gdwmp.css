@@ -287,6 +287,20 @@ color:#e7c99d;
 color:#ffab4e;
 }
 
+.imagedropshadow {
+	margin: 5px;
+	padding: 5px;
+	background-color: #EFEFEF;
+	border: solid 1px #EFEFEF !important;
+}
+
+a:hover img.imagedropshadow {
+	border: solid 1px #CCC;
+	-moz-box-shadow: 1px 1px 15px #999;
+	-webkit-box-shadow: 1px 1px 15px #999;
+        box-shadow: 1px 1px 15px #999;
+}
+
 #gdwmp-zone-texte .portletCollection .portletHeader {
 background: transparent;
 line-height: normal;

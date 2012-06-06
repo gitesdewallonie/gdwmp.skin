@@ -9,6 +9,7 @@
   <include package="z3c.jbot" file="meta.zcml" />
   <browser:templateOverrides directory="skins/gdwmp_skin_templates" />
   
+  <include package=".browser" />
   <include file="skins.zcml" />
   <include file="profiles.zcml" />
 
