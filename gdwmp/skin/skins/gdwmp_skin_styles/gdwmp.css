@@ -482,17 +482,18 @@ background-position:center 3px-;
 
 #copyright{
 float:left;
-width: 325px;
-height: 132px;
+width:200px;
+height:200px;
 margin-top:-37px;
-overflow: hidden;
+overflow:hidden;
 }
 
 #txt{
 color: #FFFFFF;
 font-family:  Tahoma, "Trebuchet MS", Arial, serif;
 font-size: 11px;
-margin-left: 20px;
+margin-left:0px;
+text-align:center;
 }
 
 #partenaire{
