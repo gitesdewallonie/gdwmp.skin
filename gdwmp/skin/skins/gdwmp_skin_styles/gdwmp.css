@@ -126,11 +126,11 @@ border-bottom:1px dotted #4e3702;
 
 #portal-breadcrumbs a {
 color:#b3680a;
-}                                   
+}
 
 #portal-breadcrumbs a:hover {
 color:#ffbd5f;
-}                                   
+}
 
 
 
@@ -151,7 +151,7 @@ height:518px;
 background-image:url(bg_intro.png);
 background-repeat:no-repeat;
 margin-left:12px;
-margin-top:10px; 
+margin-top:10px;
 color:#d8b986;
 font-size:0.9em;
 text-align:justify;
@@ -171,15 +171,15 @@ margin-right:12px;
 margin-top:10px;
 background-image:url(bg_event_recette.png);
 background-repeat:no-repeat;
-}  
+}
 
 #gdwmp-zone-texte .portletCollection{
 border:1px solid #f00;
 min-height:125px;
 width:500px;
-} 
+}
 
-/*les events*/ 
+/*les events*/
 #gdwmp-evenement{
 float:right;
 margin-right:52px;
@@ -193,14 +193,14 @@ border-width:1px 1px 1px 1px;
 border-style:solid;
 border-color:#846d37;
 overflow:hidden;
-}                 
+}
 
 div#gdwmp-zone-texte #gdwmp-evenement dl.portlet dt a:link, dl.portlet dt a:visited, dl.portlet dt a:hover {
 border: medium none;
 color:#ffaa6e;
 display: block;
 font-size:2em;
- 
+
 }
 
 
@@ -209,7 +209,7 @@ div#gdwmp-zone-texte #gdwmp-evenement dd.portletFooter{
 /*border:1px solid #fff;*/
 padding-left: 260px;
 padding-top:35px;
-}                  
+}
 
 div#gdwmp-zone-texte #gdwmp-evenement dd.portletFooter .tile{
 border:1px dotted #a87f5b;
@@ -230,13 +230,13 @@ line-height: normal;
 padding: 0.42em 1em;
 color:#ffaa6e;
 font-family: 'Terminal Dosis Light', arial, serif;
-} 
+}
 
 div#gdwmp-zone-texte #gdwmp-evenement dl.portlet dd.portletItem a.tile {
 border: medium none;
 color:#ffaa6e;
 display: block;
-font-size:1.1em; 
+font-size:1.1em;
 }
 
 
@@ -321,8 +321,8 @@ border:none;
 
 div#gdwmp-zone-texte #content a:hover, dl.portlet a:hover{
 color:#ffab4e !important;
-} 
- 
+}
+
 /*les hebergements */
 #liens-hebergement{
 border-width:1px 0px;
@@ -403,11 +403,11 @@ color:#ffab4e;
 
 /*search*/
 #gdwmp-search label{
-color:#999;    
+color:#999;
 }
 
 #gdwmp-search label:hover{
-color:#ffab4e;    
+color:#ffab4e;
 }
 
 div#gdwmp-search #portal-searchbox {
@@ -462,11 +462,11 @@ margin:1.2em 0;
 }
 
 #gdwmp-links li a{
-color:#999;        
+color:#999;
 }
 
 #gdwmp-links li a:hover{
-color:#ffab4e;        
+color:#ffab4e;
 }
 
 
@@ -511,13 +511,13 @@ margin-right:3px;
 
 #logo-tourisme-wallonie, #logo-wallonie-bruxelles-tourisme, #feder-logo{
 float:right;
-margin-right:70px;
+margin-right:40px;
 text-align:center;
 }
 
 #feder-logo img{
 margin:auto;
-} 
+}
 
 /**** PLONE ****/
 /*barre verte edit*/
@@ -540,7 +540,7 @@ font-size:80%;
 margin-bottom:1em;
 min-height:2em;
 }
-  
+
 #edit-bar, #content ul.formTabs {
 -moz-border-radius-topleft:3px;
 -moz-border-radius-topright:3px;
@@ -599,7 +599,7 @@ color:#FFAB4E;
 border-bottom:1px dotted #4e3702;
 font-weight:normal;
 font-family: 'Terminal Dosis Light', arial, serif;
-} 
+}
 
 #content a:visited, dl.portlet a:visited {
 border-bottom: 0px solid #CCCCCC;
@@ -608,8 +608,8 @@ color: #427597;
 
 #content .documentDescription{
 color: #aab;
-font-weight:normal; 
-font-size:1.25em; 
+font-weight:normal;
+font-size:1.25em;
 font-family:"Helvetica Neue",Arial,FreeSans,sans-serif;
 margin-left: 0;
 }
@@ -624,7 +624,7 @@ margin-right:6px;
 border: 1px solid #666666;
 background-color:#fff;
 }
- 
+
 /*couleur fond barre de boutons*/
 .ploneSkin table.mceLayout td.mceToolbar {
 border: medium none;
