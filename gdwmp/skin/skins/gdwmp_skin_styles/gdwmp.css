@@ -509,9 +509,16 @@ margin-bottom:4px;
 margin-right:3px;
 }
 
-#logo-tourisme-wallonie, #logo-wallonie-bruxelles-tourisme, #feder-logo{
+#logo-tourisme-wallonie{
+float:left;
+margin-left:80px;
+text-align:center;
+}
+
+#logo-wallonie-bruxelles-tourisme,
+#feder-logo{
 float:right;
-margin-right:40px;
+margin-right:80px;
 text-align:center;
 }
 
