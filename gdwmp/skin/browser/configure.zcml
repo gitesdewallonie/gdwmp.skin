@@ -13,4 +13,12 @@
         permission="zope.Public"
         />
 
+    <browser:viewlet
+        for="*"
+        name="gdwmp.cookiecuttr"
+        manager="plone.app.layout.viewlets.interfaces.IBelowContentBody"
+        class=".cookiecuttr.CookiecuttrViewlet"
+        permission="zope.Public"
+        />
+
 </configure>

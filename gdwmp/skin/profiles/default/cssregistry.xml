@@ -24,4 +24,16 @@
     expression="python:portal.restrictedTraverse
                               ('@@proprio_view').isProprio()"/>
 
+<stylesheet title=""
+    id="cookiecuttr.css"
+    media="screen"
+    rel="stylesheet"
+    rendering="import"
+    cacheable="True"
+    compression="safe"
+    cookable="True"
+    enabled="1"
+    applyPrefix="True"
+    expression=""/>
+
 </object>

@@ -3,4 +3,12 @@
  <javascript cacheable="True" compression="safe" cookable="True"
     enabled="True" expression=""
     id="HYPE.js" inline="False"/>
+
+ <javascript cacheable="True" compression="safe" cookable="True"
+    enabled="True" expression=""
+    id="jquery.cookie.js" inline="False"/>
+
+ <javascript cacheable="True" compression="safe" cookable="True"
+    enabled="True" expression=""
+    id="jquery.cookiecuttr.js" inline="False"/>
 </object>
